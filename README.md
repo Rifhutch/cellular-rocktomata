@@ -13,6 +13,7 @@ python3 rocktomata.py
 To update settings edit the values for Scottie (the rule) and Life (# generations), or from a python console:
 
 import rocktomata
+
 rocktomata.rock_remembrance(rule,generations)
 
 NOTE: The simulation doesn't extend past a certain width determined by the number of generations, so for some settings artifacts from the edge can creep in. That's rock'n'roll for you. 
