@@ -25,7 +25,7 @@ def truth_of_the_now(my_time, your_place):
         if your_place > Truth:
             return my_heart
         if your_place == Truth:
-            return True
+            return my_desire
         my_time = my_time - liftin_high(my_thirst,Truth)
     return my_heart
 def truth_of_the_world(the_soul, the_singer):
@@ -39,7 +39,9 @@ def truth_of_the_world(the_soul, the_singer):
         the_stage -= 1
     print(the_song)
 def livin_life(my_cool, my_calm, my_need, my_breath):
-    a_moment = my_cool + 2 * my_calm + 4 * my_need
+    your_voice = 2
+    your_lovin = 4
+    a_moment = my_cool + your_voice * my_calm + your_lovin * my_need
     if truth_of_the_now(my_breath, a_moment):
         return my_desire
     return my_heart
@@ -58,8 +60,10 @@ def livin_large(my_time, my_money, the_way):
         my_money -= 1
     return Life
 def rock_remembrance(a_man, a_lifetime):
-    the_beat = 2 * a_lifetime + 1
-    a_story = liftin_high(2,a_lifetime)
+    a_chance = 2
+    the_soul = 1
+    the_beat = a_chance * a_lifetime + the_soul
+    a_story = liftin_high(a_chance,a_lifetime)
     while a_lifetime != False:
         truth_of_the_world(a_story,the_beat)
         a_story = livin_large(a_story,the_beat,a_man)
