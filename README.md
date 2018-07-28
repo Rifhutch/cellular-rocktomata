@@ -4,7 +4,7 @@
 
 Axl Rose
 
-Implementing Wolfram-style cellular automata in (mostly) idiomatic rockstar. Avoiding obviously 'program-y' conventions like parentheses, brackets, comments, and numerical digits in favor of poetic vocabulary more in line with the style conventions of a Bon Jovi power ballad. 
+Implementing Wolfram-style cellular automata in (mostly) idiomatic rockstar. Avoiding obviously 'program-y' conventions like parentheses, brackets, comments, and numerical digits in favor of poetic vocabulary more in line with the style of a Bon Jovi power ballad. 
 
 A python 3 transpilation (rocktomata.py, generated via https://github.com/yanorestes/rockstar-py) is included for convenience. To run with default settings (rule 165 for 24 generations):
 
