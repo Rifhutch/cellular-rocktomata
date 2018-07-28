@@ -2,7 +2,7 @@
 
 “Life sucks, but in a beautiful kind of way.”
 
-Axl Rose - 1998
+Axl Rose
 
 Implementing Wolfram-style cellular automata in (mostly) idiomatic rockstar. Avoiding obviously 'program-y' conventions like parentheses, brackets, comments, and numerical digits in favor of poetic vocabulary more in line with the style conventions of a Bon Jovi power ballad. 
 
