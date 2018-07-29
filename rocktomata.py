@@ -1,6 +1,8 @@
 my_heart = 0
 my_desire = 1
 my_thirst = 2
+Scottie = 30
+Life = 24
 def liftin_high(the_spirit, greatness):
     Davy = 0
     Gina = 1
@@ -68,6 +70,4 @@ def rock_remembrance(a_man, a_lifetime):
         truth_of_the_world(a_story,the_beat)
         a_story = livin_large(a_story,the_beat,a_man)
         a_lifetime -= 1
-Scottie = 165
-Life = 24
 rock_remembrance(Scottie, Life)
