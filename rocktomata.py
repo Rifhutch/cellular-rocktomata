@@ -34,9 +34,9 @@ def truth_of_the_world(the_soul, the_singer):
     the_song = ""
     the_stage = the_singer - my_desire
     while the_stage > my_heart - my_desire:
-        if truth_of_the_now(the_soul,the_stage):
+        if truth_of_the_now(the_soul,the_stage) != False:
             the_song = the_song + "*"
-        if truth_of_the_now(the_soul, the_stage) != True:
+        if truth_of_the_now(the_soul, the_stage) == False:
             the_song = the_song + "_"
         the_stage -= 1
     print(the_song)
@@ -44,7 +44,7 @@ def livin_life(my_cool, my_calm, my_need, my_breath):
     your_voice = 2
     your_lovin = 4
     a_moment = my_cool + your_voice * my_calm + your_lovin * my_need
-    if truth_of_the_now(my_breath, a_moment):
+    if truth_of_the_now(my_breath, a_moment) != False:
         return my_desire
     return my_heart
 def livin_large(my_time, my_money, the_way):
