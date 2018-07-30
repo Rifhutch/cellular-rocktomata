@@ -17,6 +17,6 @@ import rocktomata
 rocktomata.rock_remembrance(rule,generations)
 
 NOTE: The simulation doesn't extend past a fixed width determined by the number of generations, so for some settings artifacts from the edge can creep in. That's rock'n'roll for you. 
-This implementation makes use of arbitrarily sized ints and '+' for string concatentation, so translating to other languages may not work.
+This implementation makes use of arbitrarily sized ints and '+' for string concatenation, so translating to other languages may not work.
 
 Overview of cellular automata here: http://mathworld.wolfram.com/ElementaryCellularAutomaton.html
