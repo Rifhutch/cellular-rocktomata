@@ -2,8 +2,8 @@ my_heart = 0
 my_desire = 1
 my_thirst = 2
 Scottie = 30
-Life = 42
-def liftin_high(the_spirit, greatness):
+Life = 24
+def liftin_high(the_spirit, Greatness):
     Davy = 0
     Gina = 1
     while Davy != greatness:
